@@ -1,0 +1,36 @@
+body {
+  background-image: url("../black.jpg");
+}
+h1, h2, h3 {
+  color: #66FCF1;
+  text-align: center;
+}
+h1 {
+  font-family: 'Anton', sans-serif;
+  margin: 60px auto;
+  font-size: 3em;
+}
+h2, h3 {
+  font-family: 'Baloo Bhai', cursive;
+
+}
+.trigger {
+  background-color:#000000;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+  border:3px solid #66FCF1;
+  display:inline-block;
+  cursor:pointer;
+  color:#66FCF1;
+  font-family: 'Baloo Bhai', cursive;
+  font-size:17px;
+  padding:10px 20px;
+  text-decoration:none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.tweet {
+  text-align: center;
+}

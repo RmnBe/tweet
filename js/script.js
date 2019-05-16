@@ -10,7 +10,7 @@ function getQuote() {
             return resp.json();
         })
         .then(createTweet);
-}
+};
 
 function createTweet(input) {
     var data = input[0];
@@ -23,7 +23,7 @@ function createTweet(input) {
     if (!quoteAuthor.length) {
         quoteAuthor = "Unknown author";
     }
-}
+};
 
 if (tweetText.length > 140) {
     getQuote();
